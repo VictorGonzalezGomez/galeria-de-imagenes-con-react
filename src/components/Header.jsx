@@ -2,12 +2,12 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <>
+    <div>
     <header>
     <h1>Galeria de imagenes con react</h1>
-    <p>aqui encontrar distintas imagenes utilizadas para practicar React</p>
+    <p> un pequeño vistazo a mis fotografias</p>
     </header>
-    </>
+    </div>
   )
 }
 

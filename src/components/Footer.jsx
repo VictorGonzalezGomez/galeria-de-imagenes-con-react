@@ -1,15 +1,18 @@
 import React from 'react'
-
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 const Footer = () => {
   return (
-    <footer className="card  bottom-0 start-50 translate-middle-x">
-  <h5 className="card-header">Featured</h5>
-  <div className="card-body">
-    <h5 className="card-title">Special title treatment</h5>
-    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" className="btn btn-primary">Contacto</a>
-  </div>
-</footer>
+
+    <Card className="text-center">
+    <Card.Header className="bg-dark text-white">Mi Trabajo</Card.Header>
+    <Card.Body>
+      <Card.Text>
+      Este es una pequeña muestra de mi incursion en la fotografia callejera y de paisajes a travez de mi pais Chile.
+      </Card.Text>
+      <Button variant="warning">Contacto</Button>
+    </Card.Body>
+  </Card>
   )
 }
 

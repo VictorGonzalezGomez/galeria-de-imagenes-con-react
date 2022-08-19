@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-       <Header/>
+       <Header title="mi galleria de imagenes"/>
        <CardsContainer/>
        <Footer/>
     </div>

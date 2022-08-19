@@ -1,11 +1,10 @@
 import React from 'react'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div>
     <header>
-    <h1>Galeria de imagenes con react</h1>
-    <p> un pequeño vistazo a mis fotografias</p>
+    <h1>{props.title}</h1>
     </header>
     </div>
   )
